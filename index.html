@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RPSCSS.css">
+    <script src="RPSJavascript.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+<h1>Play rock paper scissors! (Out of 5 rounds)</h1>
+
+    <div id="computerChoiceDiv">
+        <h1>The computer picked:</h1>
+        <h1 id="computerChoiceView">Nothing yet!</h1>
+    </div>
+
+    <div id="playerChoiceDiv">
+        <h1>You picked:</h1>
+        <h1 id="playerChoiceView">Nothing yet!</h1>
+    </div>
+
+    <div id="playerChoiceButtons">
+        <button class="playerButton" onclick="playerChoice('Rock')">Rock</button>
+        <button class="playerButton" onclick="playerChoice('Scissors')">Scissors</button>
+        <button class="playerButton" onclick="playerChoice('Paper')">Paper</button>
+    </div>
+    <div id="resultDiv">Start!</div>
+<p1 id="roundCounter">You havent started yet.</p1>
+
+<h1 id="winAnnouncer"></h1>
+
+  
+
+</body>
+
+</html>
